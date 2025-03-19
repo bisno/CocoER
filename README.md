@@ -4,7 +4,7 @@ CocoER is a multi-level image feature refinement method for emotion recognition 
 
 
 <iframe src="/assets/Asset_1.pdf" width="100%" height="100%" frameborder="0"></iframe>
-<embed src="assets/Asset_1.pdf" type="application/pdf" width="100%" height="500" />
+<embed src="/assets/Asset_1.pdf" type="application/pdf" width="100%" height="500" />
 
 ------
 
