@@ -10,9 +10,9 @@ CocoER is a multi-level image feature refinement method for emotion recognition 
 
 ### To-Do:
 
-- [ ] release inference code (Before 2025-05-01)
-- [ ] release training code (Before  2025-06-01)
-- [ ] release checkpoints (Before  2025-06-20)
+- [ ] release inference code.
+- [ ] release training code.
+- [ ] release checkpoints.
 
 
 ------
