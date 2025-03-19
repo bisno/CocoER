@@ -4,15 +4,18 @@ CocoER is a multi-level image feature refinement method for emotion recognition 
 
 <img src="/assets/Asset_1.png" alt="SVG" width="70%" height="70%">
 
-
-### showcase:
-
+------
+### Showcase:
+(1) The V-I column shows pseudo label in vocabulary-informed module. We display the elimination of inconsistent recognition results in orange, which are not shown in either the V-I column or the  prediction column.
 <img src="/assets/Asset_2.png" alt="S" width="80%" height="80%">
+
+(2) We provide failure cases of GPT-4o to illustrate that VLM also suffers from conflicting results of multi-level predictions for emotion recognition, by comparing w/ and w/o multi-level inputs. We use orange color to highlight the wrong predictions that both appear in GPT-4o results, but are not contained in ground-truth label.  It indicates that if there are inconsistent predictions at a certain image level, it can also confuse the final recognition results for VLM. Therefore, VLM frameworks also need to eliminate multi-level pollution. 
+<img src="/assets/Asset_3.png" alt="S" width="80%" height="80%">
+
 
 
 
 ------
-
 ### To-Do:
 
 - [ ] release inference code.
