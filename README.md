@@ -93,8 +93,8 @@ Have Fun~
 
 
 ------
-#### Citation
-```bash
+### Citation
+```
 @InProceedings{Shen_2025_CVPR,
     author    = {Shen, Xuli and Cai, Hua and Shen, Weilin and Xu, Qing and Yu, Dingding and Ge, Weifeng and Xue, Xiangyang},
     title     = {CocoER: Aligning Multi-Level Feature by Competition and Coordination for Emotion Recognition},
