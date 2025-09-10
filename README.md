@@ -76,9 +76,9 @@ Files with bounding boxes is saved in the `./outputs/` directory.
 ------
 ### To-Do:
 
-- [*] release inference code.
-- [*] release training code.
-- [*] release checkpoints.
+[✅] release inference code.
+[✅] release checkpoints.
+[  ] release training code.
 
 
 
