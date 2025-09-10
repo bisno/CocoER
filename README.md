@@ -27,7 +27,7 @@ CocoER is a multi-level image feature refinement method for emotion recognition 
 
 Please download the model weights and place them in the following directories:
 
-* D-Link: https://pan.baidu.com/s/1ziaZirfyxff-JETBXgKd7Q?pwd=t523
+* D-Link: 
 
 - GWT model: `./checkpoints/`
 - GWT model (VI weights): `./checkpoints/VI_weights/`
