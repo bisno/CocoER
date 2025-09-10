@@ -74,15 +74,6 @@ Files with bounding boxes is saved in the `./outputs/` directory.
 
 
 ------
-### To-Do:
-
-- [✅] release inference code.
-- [✅] release checkpoints.
-- [  ] release training code.
-
-
-
-------
 ### Limitation
 
 Due to the constraints of the training dataset, the model may perform poorly on out-of-domain images. 
