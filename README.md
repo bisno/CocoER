@@ -53,10 +53,10 @@ python inference.py --input ./test_imgs/o2.png
 
 Files with bounding boxes is saved in the `./outputs/` directory.
 
-Have Fun~
+Have Fun ~~
 
 
-------
+
 ### Limitation
 
 Due to the constraints of the training dataset, the model may perform poorly on out-of-domain images. 
