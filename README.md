@@ -76,9 +76,9 @@ Files with bounding boxes is saved in the `./outputs/` directory.
 ------
 ### To-Do:
 
-[✅] release inference code.
-[✅] release checkpoints.
-[  ] release training code.
+- [✅] release inference code.
+- [✅] release checkpoints.
+- [  ] release training code.
 
 
 
@@ -92,7 +92,8 @@ Due to the constraints of the training dataset, the model may perform poorly on 
 Have Fun~
 
 
-
+------
+#### Citation
 ```bash
 @InProceedings{Shen_2025_CVPR,
     author    = {Shen, Xuli and Cai, Hua and Shen, Weilin and Xu, Qing and Yu, Dingding and Ge, Weifeng and Xue, Xiangyang},
