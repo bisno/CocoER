@@ -40,7 +40,7 @@ Run the inference script with:
 python inference.py --input ./test_imgs/o2.png
 ```
 
-* Files starting with "o" in the  `./test_imgs/` folder are images that are not inside the test folder.
+* Files starting with "o" in the  `./test_imgs/` folder are images that are not inside the EMOTIC test folder.
 
 ### Output Dictionary Explanation
 
