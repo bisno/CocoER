@@ -42,7 +42,7 @@ For third-party model:
 Run the inference script with:
 
 ```bash
-python inference.py --input ./test_imgs/o2.png
+python inference.py --input ./test_imgs/o1.png
 ```
 
 * Files starting with "o" in the  `./test_imgs/` folder are images that are not inside the EMOTIC test folder.
@@ -58,7 +58,7 @@ python inference.py --input ./test_imgs/o2.png
 
 Files with bounding boxes is saved in the `./outputs/` directory. For example:
 
-<img src="/outputs/o1.png" alt="S" width="90%" height="90%">
+<img src="/outputs/o1.png" alt="S" width="70%" height="70%">
 
 Have Fun ~~
 
