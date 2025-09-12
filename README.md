@@ -32,6 +32,11 @@ Please download the model weights and place them in the following directories:
 - GWT model: `./checkpoints/`
 - GWT model (VI weights): `./checkpoints/VI_weights/`
 
+For third-party model:
+
+- insightface D-link: https://drive.google.com/file/d/15vdafPSWhep4PJAAYSdSPPgDoCgp2dxO/view?usp=sharing 
+- Unzip the file and move the folder `insightface` into  `./thirdparty/`
+
 ### Inference
 
 Run the inference script with:
@@ -51,7 +56,9 @@ python inference.py --input ./test_imgs/o2.png
 - `output_dict['ctx']`: Context-level emotion prediction result.
 - `output_dict['emo_process']`: Exclusion sequence.
 
-Files with bounding boxes is saved in the `./outputs/` directory.
+Files with bounding boxes is saved in the `./outputs/` directory. For example:
+
+<img src="/outputs/o1.png" alt="S" width="90%" height="90%">
 
 Have Fun ~~
 
