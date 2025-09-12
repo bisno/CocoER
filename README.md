@@ -58,7 +58,7 @@ python inference.py --input ./test_imgs/o1.png
 
 Files with bounding boxes is saved in the `./outputs/` directory. For example:
 
-<img src="/outputs/o1.png" alt="S" width="70%" height="70%">
+<img src="/outputs/o1.png" alt="S" width="60%" height="60%">
 
 Have Fun ~~
 
