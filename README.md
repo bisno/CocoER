@@ -19,7 +19,6 @@ CocoER is a multi-level image feature refinement method for emotion recognition 
 
    ```bash
    pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
-   
    pip install -r requirements.txt
    ```
 ------
@@ -56,7 +55,7 @@ python inference.py --input ./test_imgs/o1.png
 - `output_dict['ctx']`: Context-level emotion prediction result.
 - `output_dict['emo_process']`: Exclusion sequence.
 
-Files with bounding boxes is saved in the `./outputs/` directory. For example:
+Files with bounding boxes is saved in the `./outputs/` directory:
 
 <img src="/outputs/o1.png" alt="S" width="50%" height="50%">
 
@@ -66,7 +65,7 @@ Have Fun ~~
 
 ### Limitation
 
-Due to the constraints of the training dataset, the model may perform poorly on out-of-domain images. 
+Due to the constraints of the training dataset (EMOTIC for example), the model may perform poorly on out-of-domain images. 
 
 
 
